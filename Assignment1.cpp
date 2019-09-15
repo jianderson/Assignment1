@@ -52,6 +52,7 @@ float gaussianCalc(float mean, float variance)
 //main method
 int main(int argc, char** argv)
 {
+    //you ahve to make sure that the random numbers generated are not the same
     srand(time(NULL));
     //start a file stream between the program and the file
     ifstream filestreamer;
